@@ -135,7 +135,7 @@ function buildCard() {
         createTextElem('h2', ['f5'], 'Homeworld'),
         createTextElem('p', ['lh-copy', 'measure', 'center', 'f6', 'black-70'], homeworld),
         createElement('hr', ['mw3', 'bb', 'bw1', 'b--black-10']),
-        createTextElem('h2', ['f5'], 'Birthyear'),
+        createTextElem('h2', ['f5'], 'birthyear'),
         createTextElem('p', ['lh-copy', 'measure', 'center', 'f6', 'black-70'], birthyear),
         createElement('hr', ['mw3', 'bb', 'bw1', 'b--black-10']),
         createTextElem('h2', ['f5'], 'Height'),

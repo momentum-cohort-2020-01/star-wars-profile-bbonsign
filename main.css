@@ -1,8 +1,45 @@
+@font-face {
+font-family: starwars;
+src: url(./fonts/starjedi/Starjedi.ttf);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+    font-size: 2rem;
+}
+
+#index {
+    text-align: center;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: rgb(209, 209, 0);
+}
+
+h1 {
+    font-family: starwars;
+}
+
+a {
+    font-family: starwars;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(126, 185, 8);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(209, 209, 0);
 }
 
 ul {
